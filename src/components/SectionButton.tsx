@@ -1,0 +1,24 @@
+import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+
+type SectionButtonProps = {
+  destination?: string;
+  destinationName?: string;
+};
+const SectionButton: React.FC<SectionButtonProps> = ({
+  destination,
+  destinationName,
+}) => {
+  return (
+    <Link
+      to={destination}
+      smooth={true}
+      duration={500}
+      className="duration-100 hover:text-white hover:mix-blend-difference hover-target hover:animate-pulse hover:scale-110"
+    >
+      {destinationName}
+    </Link>
+  );
+};
+
+export default SectionButton;
