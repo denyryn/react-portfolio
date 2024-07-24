@@ -1,5 +1,5 @@
 import React from "react";
-import { DesignProps } from "../interfaces/designProps";
+import { DesignProps } from "../interfaces/DesignProps";
 
 interface TitleProps extends DesignProps {
   text: string;

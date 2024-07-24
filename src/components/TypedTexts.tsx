@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import { DesignProps } from "../interfaces/designProps";
+import { DesignProps } from "../interfaces/DesignProps";
 
 interface TypedTextProps extends DesignProps {
   className?: string;
