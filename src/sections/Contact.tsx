@@ -28,12 +28,12 @@ const Contact: React.FC<ContactProps> = ({ username }) => {
                     <div className="w-full max-w-sm h-2 my-10 bg-theme-invert"></div>
                     <div className="grid grid-cols-2 gap-y-8 max-w-lg place-self-center">
                         <div>
-                            <span className="block text-2xl font-semibold">Email</span>
-                            <span className="block">denyryn@outlook.com</span>
+                            <span className="block text-xl md:text-2xl font-semibold">Email</span>
+                            <span className="block text-sm md:text-base">denyryn@outlook.com</span>
                         </div>
                         <div>
-                            <span className="block text-2xl font-semibold">Based In</span>
-                            <span className="block">Semarang, Central Java</span>
+                            <span className="block text-xl md:text-2xl font-semibold">Based In</span>
+                            <span className="block text-sm md:text-base">Semarang, Central Java</span>
                         </div>
                         <div className="col-span-2 flex justify-evenly lg:order-first lg:gap-4">
                             <a href="https://github.com/denyryn" target="_blank" rel="noopener noreferrer" className="hover-target">
