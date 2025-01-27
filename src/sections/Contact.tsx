@@ -15,7 +15,7 @@ const Contact: React.FC<ContactProps> = ({ username }) => {
             </div>
 
             <div className="flex flex-col items-center justify-center">
-                <div className="max-w-md lg:max-w-2xl text-center flex flex-col items-center py-10">
+                <div className="min-w-xs max-w-2xl text-center flex flex-col items-center p-10">
                     <div className="w-fit">
                         <Title className="text-xl leading-loose" text="Feel Free to Contact Me :)" />
                     </div>
@@ -23,9 +23,9 @@ const Contact: React.FC<ContactProps> = ({ username }) => {
                         I’m always open to new opportunities, collaborations, or just a friendly chat! Whether you have a project in mind, a question, or simply want to connect, I’d love to hear from you. Don’t hesitate to reach out—I’ll do my best to get back to you as soon as possible. Looking forward to connecting!
                     </p>
                 </div>
-                <div className="flex flex-col items-center max-w-sm lg:max-w-full w-full lg:w-1/2 py-10">
+                <div className="flex flex-col items-center min-w-xs max-w-full w-full lg:w-1/2 p-10">
                     <ContactForm />
-                    <div className="w-full max-w-sm h-2 my-4 bg-theme-invert"></div>
+                    <div className="w-full max-w-sm h-2 my-10 bg-theme-invert"></div>
                     <div className="grid grid-cols-2 gap-y-8 max-w-lg place-self-center">
                         <div>
                             <span className="block text-2xl font-semibold">Email</span>

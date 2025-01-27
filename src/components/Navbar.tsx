@@ -37,12 +37,18 @@ const Navbar: React.FC<NavbarProps> = ({ username }) => {
           tabIndex={0}
           className="menu dropdown-content bg-theme rounded-box z-[1] w-96 p-2 shadow"
         >
-          <li>
-            <a>Item 1</a>
+          <li className="absolute right-1 top-1 z-[100]">
+            <AppearanceButton />
           </li>
-          <li>
-            <a>Item 2</a>
-          </li>
+          {Sections.map((section) => (
+            <li>
+              <SectionButton
+                key={section}
+                destination={section}
+                destinationName={section[0].toUpperCase() + section.slice(1)}
+              />
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

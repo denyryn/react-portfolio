@@ -40,7 +40,7 @@ const Hero: React.FC<HeroProps> = ({
       <div className="flex pb-1 lg:px-1 flex-col max-w-prose lg:max-w-[25vw] items-center justify-center text-[2.5rem] lg:text-[4rem] leading-none font-bold text-center duration-150 lg:items-start lg:text-left text-pretty line-clamp-3">
         <span className="block leading-tight hover-target text-theme-invert">{fullname}.</span>
         <div className="w-1/3 h-2 my-4 bg-theme-invert"></div>
-        <div className="flex flex-row gap-x-2">
+        <div className="flex flex-row gap-x-2 px-1">
           <Button text={`Contact ${username}`} onClick={gotoContact} className="leading-4 duration-150 size-fit btn hover-target" />
           <Button text={`Download Resume`} onClick={downloadCV} className="leading-4 duration-150 size-fit btn hover-target" />
         </div>
