@@ -18,13 +18,13 @@ const CustomCursor: React.FC<CustomCursorProps> = () => {
     const addHoverEffect = () => {
       if (!cursorRef.current) return;
       cursorRef.current.classList.add("hovered");
-      console.log("Hover effect added");
+      // console.log("Hover effect added");
     };
 
     const removeHoverEffect = () => {
       if (!cursorRef.current) return;
       cursorRef.current.classList.remove("hovered");
-      console.log("Hover effect removed");
+      // console.log("Hover effect removed");
     };
 
     window.addEventListener("mousemove", moveCursor);
