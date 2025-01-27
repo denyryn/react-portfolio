@@ -15,7 +15,7 @@ const TextInput: React.FC<TextInputProps> = ({
     placeholder = "Type here",
     className = "",
     required = false,
-    errorMessage = "Please enter your full name",
+    // errorMessage = "Please fill the field",
     id,
     name,
 }) => {
