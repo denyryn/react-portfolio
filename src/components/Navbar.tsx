@@ -35,7 +35,7 @@ const Navbar: React.FC<NavbarProps> = ({ username }) => {
         </div>
         <ul
           tabIndex={0}
-          className="menu dropdown-content bg-theme rounded-box z-[1] w-96 p-2 shadow"
+          className="menu dropdown-content bg-theme min-w-xs max-w-md rounded-box z-[1] w-96 p-2 shadow"
         >
           <li className="absolute right-1 top-1 z-[100]">
             <AppearanceButton />
