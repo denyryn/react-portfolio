@@ -16,12 +16,22 @@ const gotoContact = () => {
 }
 
 const downloadCV = () => {
+  // Path to the file in the public folder
+  const filePath = "/Deny-Rianto_Year-of-Experience_Resume_2024.pdf";
+
+  // Create a temporary link element
   const link = document.createElement("a");
-  link.href = "../Assets/Deny Rianto_Year of Experience_Resume_2024.pdf";
+  link.href = filePath;
   link.download = "Deny-Rianto_Year-of-Experience_Resume_2024.pdf";
   link.style.display = "none";
+
+  // Append the link to the document body
   document.body.appendChild(link);
+
+  // Trigger the download
   link.click();
+
+  // Clean up and remove the link from the document
   document.body.removeChild(link);
 };
 

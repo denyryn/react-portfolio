@@ -13,6 +13,7 @@
     "@emailjs/browser": "^4.4.1",
     "@icons-pack/react-simple-icons": "^11.1.0",
     "devicon-react-svg": "^0.2.4",
+    "dotenv": "^16.4.7",
     "dynamic-marquee": "^2.6.3",
     "dynamic-marquee-react": "^1.0.2",
     "react": "^18.3.1",
@@ -22,6 +23,7 @@
     "typed.js": "^2.1.0"
   },
   "devDependencies": {
+    "@types/node": "^22.10.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/react-scroll": "^1.8.10",

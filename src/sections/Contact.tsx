@@ -15,11 +15,11 @@ const Contact: React.FC<ContactProps> = ({ username }) => {
             </div>
 
             <div className="flex flex-col items-center justify-center">
-                <div className="min-w-xs max-w-2xl text-center flex flex-col items-center p-10">
-                    <div className="w-fit">
+                <div className="min-w-xs max-w-2xl text-center flex flex-col items-center p-10 ">
+                    <div className="w-fit hover-target">
                         <Title className="text-xl leading-loose" text="Feel Free to Contact Me :)" />
                     </div>
-                    <p className="mt-4">
+                    <p className="mt-4 hover-target">
                         I’m always open to new opportunities, collaborations, or just a friendly chat! Whether you have a project in mind, a question, or simply want to connect, I’d love to hear from you. Don’t hesitate to reach out—I’ll do my best to get back to you as soon as possible. Looking forward to connecting!
                     </p>
                 </div>
