@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@icons-pack/react-simple-icons": "^11.1.0",
+    "devicon-react-svg": "^0.2.4",
     "dynamic-marquee": "^2.6.3",
     "dynamic-marquee-react": "^1.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scroll": "^1.9.0",
+    "react-simple-icons": "^1.0.0-beta.5",
     "typed.js": "^2.1.0"
   },
   "devDependencies": {

@@ -4,27 +4,32 @@
 import CustomCursor from "./components/CustomCursor";
 import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
-import AboutMe from "./sections/AboutMe";
+import Experiences from "./sections/Experiences";
+import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
 import Portrait from "./assets/anime-portrait-transparent.png";
 import "./App.css";
 
 function App() {
   const user = {
     fullname: "Deny Rianto",
+    shortname: "Rian",
     username: "denyryn",
-    role: ["Frontend Developer", "Backend Developer", "Batman"],
+    role: ["Frontend Developer", "Backend Developer"],
   };
   return (
     <>
       <Navbar username={user.username} />
-      <CustomCursor className="hidden md:block" />
       <Hero
         username={user.username}
         fullname={user.fullname}
         role={user.role}
         portrait={Portrait}
       />
-      <AboutMe username={user.username} />
+      <Experiences username={user.username} />
+      <Skills />
+      <Contact username={user.username} />
+      <CustomCursor />
     </>
   );
 }

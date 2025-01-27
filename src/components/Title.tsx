@@ -7,8 +7,8 @@ interface TitleProps extends DesignProps {
 
 const Title: React.FC<TitleProps> = ({ text, className }) => {
   return (
-    <div className={`mb-2 bg-white mix-blend-difference ${className}`}>
-      <span className="block font-light tracking-widest text-white invert text-md">
+    <div className={`mb-2 bg-theme-invert ${className}`}>
+      <span className="block font-light tracking-widest text-theme text-md hover-target">
         {text}
       </span>
     </div>

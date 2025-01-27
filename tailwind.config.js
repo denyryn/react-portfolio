@@ -7,14 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#f8f9fa",
-        secondary: "#212529",
-        offwhite: "#f2f0ef",
+        neutralwhite: "#eaeaea",
+        neutralblack: "#222222",
+        accentblue: "#0C8CE9",
+        // offwhite: "#f2f0ef",
       },
     },
   },
   plugins: [daisyui],
   // daisyUI config (optional - here are the default values)
+  darkMode: "class",
   daisyui: {
     themes: ["cupcake", "black"], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
     darkTheme: "black", // name of one of the included themes for dark mode
@@ -26,3 +28,4 @@ export default {
     themeRoot: ":root", // The element that receives theme color CSS variables
   },
 };
+

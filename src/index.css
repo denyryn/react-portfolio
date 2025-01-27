@@ -14,3 +14,52 @@
     word-spacing: 10px;
   }
 }
+
+.bg-theme {
+  @apply bg-neutralwhite dark:bg-neutralblack;
+}
+
+.bg-theme-invert {
+  @apply bg-neutralblack dark:bg-neutralwhite;
+}
+
+.text-theme {
+  @apply text-neutralwhite dark:text-neutralblack;
+}
+
+.text-theme-invert {
+  @apply dark:text-neutralwhite text-neutralblack;
+}
+
+.border-theme-invert {
+  @apply dark:border-neutralwhite border-neutralblack;
+}
+
+.title-h2 {
+  @apply text-lg font-bold
+}
+
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  mix-blend-mode: difference;
+  position: fixed;
+  background: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: transform 0.1s ease, background-color 0.1s ease;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  @apply hidden lg:block;
+  /* Hide by default, show only at lg */
+}
+
+.hovered {
+  transform: translate(-50%, -50%) scale(6);
+  /* Scale 600% while keeping the position centered */
+}
+
+.hover-target {
+  cursor: none;
+  /* Hide the default cursor when over these elements */
+}
