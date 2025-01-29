@@ -45,7 +45,7 @@ const Hero: React.FC<HeroProps> = ({
   return (
     <section
       id="home"
-      className="flex flex-col-reverse justify-center items-center p-10 lg:items-center lg:grid lg:grid-cols-3 md:min-h-screen w-svw bg-theme"
+      className="flex flex-col-reverse justify-center items-center p-10 lg:items-center lg:grid lg:grid-cols-3 h-fit w-svw bg-theme"
     >
       <div className="flex pb-1 lg:px-1 flex-col max-w-prose items-center justify-center text-[2.5rem] lg:text-[4rem] leading-none font-bold text-center duration-150 lg:items-start lg:text-left text-pretty line-clamp-3">
         <span className="block leading-tight hover-target text-theme-invert">{fullname}.</span>
