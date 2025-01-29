@@ -23,6 +23,7 @@ function App() {
       <Hero
         username={user.username}
         fullname={user.fullname}
+        shortname={user.shortname}
         role={user.role}
         portrait={Portrait}
       />
