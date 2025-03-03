@@ -17,12 +17,12 @@ const gotoContact = () => {
 
 const downloadCV = () => {
   // Path to the file in the public folder
-  const filePath = "/Deny-Rianto_Year-of-Experience_Resume_2024.pdf";
+  const filePath = "/Deny Rianto - Web Developer - CV - 2025.pdf";
 
   // Create a temporary link element
   const link = document.createElement("a");
   link.href = filePath;
-  link.download = "Deny-Rianto_Year-of-Experience_Resume_2024.pdf";
+  link.download = "Deny Rianto - Web Developer - CV - 2025.pdf";
   link.style.display = "none";
 
   // Append the link to the document body
